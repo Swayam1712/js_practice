@@ -1,7 +1,7 @@
 //wap to print the multiplication tablee of 5
 //let mesage=prompt("enter a message");
 //console.log(mesage);
-/*for(let i=5 ;i<=50;i+=5)
+for(let i=5 ;i<=50;i+=5)
 {
     console.log(i);
 }
@@ -38,11 +38,11 @@ for (i=1;i<=3;i++){
     while(i<5){
         console.log(i);
         i++;
-    }*/
+    }
 
 
     //favourite movie game
-    const fav="iron man";
+    /*const fav="iron man";
     let guess=prompt("enter your favourite movie");
     while((guess!=fav)&&(guess!="quit")){
        // console.log("wrong guess ,try again");
@@ -54,6 +54,6 @@ for (i=1;i<=3;i++){
     }
     else {
         console.log("you quit the gamae");  
-            
-    }
+
+    }*/
         
