@@ -1,2 +1,0 @@
-﻿# js_practice1
-ONLY FOR JS PRACTICE 
