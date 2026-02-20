@@ -20,4 +20,14 @@ while (true) {
         todo.push(task);
         console.log("Task added");
     }
+    else if (request === "delete") {
+        let index = prompt("Enter the index of the task to delete:");
+        if (index >= 0 && index < todo.length) {
+            let deletedTask = todo.splice(index, 1);
+            console.log(`Deleted task: ${deletedTask}`);
+        } else {
+            console.log("Invalid index");
+        }
+
+    }
 }
