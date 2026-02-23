@@ -12,17 +12,27 @@ while(true){
         console.log("You quit the game");
         break;
     }
-
-
-if (guess==random){
+         if (guess==random){
     console.log("You win");
-    break;
-}
+    }
+     else if(guess>random){
+
+        console.log("Too high");
+    }
+    else if(guess<random){
+
+        guess=prompt ("too low try again");
+    }
+
+
+ 
+    
+
 else {
-    console.log("Try again");
+  guess=prompt("Try again");
     
 
 }
-guess=prompt("Guess the number"   );
+//guess=prompt("Guess the number"   );
 
 }
