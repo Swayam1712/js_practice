@@ -45,3 +45,16 @@ console.log(s);
     }
 
     console.log(concat(str));
+
+
+
+    ////lexical scope
+    function outer(){
+        let x=4;
+        let y=5;
+        function inerArea(){
+            console.log(x * y);
+    }
+    inerArea();
+}
+   outer();
