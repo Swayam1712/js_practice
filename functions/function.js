@@ -66,4 +66,7 @@ function factorial(n){
             return n*factorial(n-1);
         }
     }
-   console.log(factorial(7));
+      
+
+    let req=prompt("enter the number for which u want to calucalte the factoriaall")
+   console.log(factorial( req ));
