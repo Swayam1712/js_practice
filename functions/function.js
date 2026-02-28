@@ -68,5 +68,56 @@ function factorial(n){
     }
       
 
-    let req=prompt("enter the number for which u want to calucalte the factoriaall")
-   console.log(factorial( req ));
+   // let req=prompt("enter the number for which u want to calucalte the factoriaall")
+   console.log(factorial( 5 ));
+
+
+   const calculator={
+    add: function(a,b){
+        return a+b;
+   },
+   sub: function(a,b){
+    return a-b;
+
+   },
+
+   mul : function(a,b){
+    return a*b;
+   }
+};
+
+function countVowels(str){
+    let count=0;
+    for (let i=0; i<str.length; i++){
+        if (str[i].toLowerCase() === 'a' || str[i].toLowerCase() === 'e' || str[i].toLowerCase() === 'i' || str[i].toLowerCase() === 'o' || str[i].toLowerCase() === 'u') {
+            count ++;
+        }
+        console.log(count);
+    }
+    return count;
+}
+countVowels("swayam");
+
+//this keyword
+const student={
+    name:"swayam",
+    eng:34,
+    math:38,
+    science:90,
+    getAvg(){
+        let avg = (this.eng + this.math + this.science)/3;
+        console.log(avg);
+    }
+
+
+}
+
+
+
+// try nd catch
+console.log("hello  world");
+try {
+    console.log(calculator);
+} catch{
+    console.log ( "an error found");
+}
