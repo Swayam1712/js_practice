@@ -121,3 +121,9 @@ try {
 } catch{
     console.log ( "an error found");
 }
+
+
+// ARROW 
+   const sum =(a,b)=> {
+    console.log(a+b);
+   }
