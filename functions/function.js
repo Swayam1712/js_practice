@@ -127,3 +127,39 @@ try {
    const sum =(a,b)=> {
     console.log(a+b);
    }
+
+   const mul= (a,c)=> a*c;
+   
+   //se time
+   console.log("hello");
+   setTimeout(() => {
+    console.log("swayam");
+   }, 400 );
+   console.log("welcome")  ;
+
+   //practice 
+   const sqr=(n)=>{
+    console.log(n**2);
+   }
+   console.log(sqr(5));
+   //
+ let id=  setInterval(()=>{
+    console.log("hello world");
+   },2000);
+   setTimeout( ()=>{
+    clearInterval(id)
+   },10000);
+
+
+   const even=(n)=>{
+    if (n%2==0){
+console.log("even");}
+
+else {
+    console.log("odd");
+}
+
+    }
+
+    console.log(even (12));
+   
